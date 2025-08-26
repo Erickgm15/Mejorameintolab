@@ -1,0 +1,41 @@
+.splash {
+  border: 1px solid black;
+  width: 375px;
+  height: 812px;
+  background-color: #4157FF;
+  display: grid;
+  justify-content: center;
+  position: relative; 
+}
+
+.splash img {
+  width: 100%;   
+  height: 100%;  
+  object-fit: cover; 
+}
+
+.circulo {
+  background-color: #FFFFFF;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25rem;   
+  left: 45%;   
+  display: grid;
+  place-items: center; 
+}
+
+.circulo img {
+  width: 55%; 
+  height: auto;
+}
+
+.titulo {
+  position: absolute;
+  top: 30rem;  
+  left: 30%;
+  color: #fff;
+  font-size: 1.5rem;
+
+}
