@@ -1,0 +1,192 @@
+.div-product{
+  border: 1px solid black;
+  width: 375px;
+  height: 85rem;
+  background-color: #fafafc;
+  display: flex;             
+  flex-direction: column;     
+  align-items: center;      
+  text-align: center;   
+  position: absolute;   
+  left: 50%;                 
+  transform: translateX(-50%); 
+  gap: 1rem;
+}
+
+.back-btn{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-right: 300px;
+  cursor: pointer;
+}
+.titulo-product{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: -1.5rem;
+}
+
+.icon-section{
+  width: 5rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+.subtitulo-product{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #9b9b9b;
+  margin-top: -1rem;
+}
+
+.div-producto{
+  border: 1px solid black;
+  width: 327px;
+  height:178px;
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.img-product{
+align-items: center;
+  width: 150px;
+  height: 150px;
+  margin-top: 1rem;
+}
+
+
+
+
+.info-producto {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.price-product {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  margin: 0.5rem 0 0 0; 
+}
+
+.descripcion {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #9b9b9b;
+  margin: 0;
+}
+
+.cuadro-car{
+    border: 1px solid#5964E0;
+    width: 16px;
+    height: 16px;
+    
+    margin-top: 2rem;
+    display: flex;             
+    flex-direction: row;     
+    align-items: center;      
+    text-align: center;   
+    justify-content: center; 
+    gap: 1rem;
+    cursor: pointer;
+}
+
+
+.cuadro-car {
+  margin-top: auto;       
+  align-self: flex-end;   
+  color: #070707;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pack-titulo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.pack-divs {
+  display: flex;
+  gap: 1rem;              
+  justify-content: center; 
+  margin-top: 1rem;
+}
+
+.size-option {
+  color: #ffe600;
+  width: 80px;             
+  height: 40px;            
+  display: flex;           
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0d0d0e;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #fff;  
+}
+
+.prduct-titulo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.details{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #9b9b9b;
+  margin-top: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.ingre-titulo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.ingre{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  color: #9b9b9b;
+  margin-top: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.date{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #030303;
+  margin-top: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #111111;
+  margin-top: 1rem;
+  text-align: left;
+  width: 100%;
+}

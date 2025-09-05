@@ -8,8 +8,10 @@
   align-items: center;      
   text-align: center;   
   position: absolute;   
-  margin-left: 40rem;            
+  left: 50%;                 
+  transform: translateX(-50%); 
 }
+
 
 .imagen img {
   width: 25rrem;   
