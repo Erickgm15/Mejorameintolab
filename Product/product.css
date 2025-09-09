@@ -190,3 +190,82 @@ align-items: center;
   text-align: left;
   width: 100%;
 }
+
+
+    .rating-section {
+      max-width: 350px;
+    }
+
+    .rating-summary {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .rating-summary .star {
+      font-size: 30px;
+      color: gold;
+      margin-right: 10px;
+    }
+
+    .rating-details {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .rating-bar {
+      display: flex;
+      align-items: center;
+      margin: 5px 0;
+    }
+
+    .rating-bar span {
+      width: 25px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .bar {
+      flex: 1;
+      height: 6px;
+      background: #eee;
+      margin: 0 8px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background: #0047FF; 
+    }
+
+    .percent {
+      width: 35px;
+      font-size: 13px;
+      text-align: right;
+      color: #333;
+    }
+
+    .hoffma {
+      font-family: 'Roboto', sans-serif;
+      font-size: 0.8rem;
+      color: #9b9b9b;
+      margin-top: 0.5rem;
+      text-align: left;
+      width: 100%;
+    }
+
+    .cart-btn{
+      margin-top: 2rem;
+      background-color: #5964E0;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      width: 90%;
+      text-align: center;
+    }
