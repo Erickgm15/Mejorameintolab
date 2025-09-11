@@ -1,0 +1,27 @@
+.padre2{
+    border: 1px solid black;
+  width: 375px;
+  height: 70rem;
+  background-color: #fafafc;
+  display: flex;             
+  flex-direction: column;     
+  align-items: center;      
+  position: absolute;   
+  left: 50%;                 
+  transform: translateX(-50%); 
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.circulo3 {
+  background-color: #FFFFFF;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5rem;   
+  left: 45%;   
+  display: grid;
+  place-items: center; 
+  border: 1px black solid;
+}
