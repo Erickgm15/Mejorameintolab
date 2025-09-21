@@ -1,0 +1,34 @@
+.offline-div{
+    border: 1px solid black;
+  width: 375px;
+  height: 60rem;
+  background-color: #fafafc;     
+  position: absolute;   
+  left: 50%;                 
+  transform: translateX(-50%); 
+  gap: 1rem;
+  padding: 1rem;
+   display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+
+.empty-div img {
+  width: 200px; 
+  margin-bottom: 20px;
+}
+
+.empty-div h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.empty-div span {
+  font-size: 1.2rem;
+  color: #666;
+}
